@@ -1,7 +1,6 @@
-import time
-
+# streamlit_timer.py
 import streamlit as st
-
+import time
 
 class StreamlitTimer:
     def __init__(self):
