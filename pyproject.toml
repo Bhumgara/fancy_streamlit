@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fancy-streamlit"
+version = "0.1.0"
+description = "A small Streamlit timer package"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["streamlit"]
+
+[tool.setuptools]
+packages = ["fancy_streamlit"]
+
+[tool.setuptools.package-dir]
+"" = "."
